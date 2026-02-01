@@ -31,9 +31,9 @@ export default function HelpPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-semibold text-lg mb-2">Is FounderMatch really free?</h3>
+                <h3 className="font-semibold text-lg mb-2">Is LinkedFounders really free?</h3>
                 <p className="text-muted-foreground">
-                  Yes! FounderMatch is 100% free with unlimited swipes, matches, and messages. There are no premium 
+                  Yes! LinkedFounders is 100% free with unlimited swipes, connections, and messages. There are no premium 
                   tiers or paywalls.
                 </p>
               </div>
@@ -44,10 +44,10 @@ export default function HelpPage() {
             <h2 className="text-2xl font-bold mb-4">Matching & Swiping</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="font-semibold text-lg mb-2">How does matching work?</h3>
+                <h3 className="font-semibold text-lg mb-2">How does connecting work?</h3>
                 <p className="text-muted-foreground">
-                  Swipe right on profiles you're interested in connecting with. If they swipe right on you too, it's 
-                  a match! You can then message each other directly.
+                  Swipe right on profiles you're interested in connecting with and you can instantly message them! 
+                  No need to wait for them to swipe back.
                 </p>
               </div>
               <div>
@@ -90,10 +90,10 @@ export default function HelpPage() {
             <h2 className="text-2xl font-bold mb-4">Messaging</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="font-semibold text-lg mb-2">Can I message someone before matching?</h3>
+                <h3 className="font-semibold text-lg mb-2">Can I message someone before connecting?</h3>
                 <p className="text-muted-foreground">
-                  No, you need to match with someone first before you can send messages. This ensures both parties 
-                  are interested in connecting.
+                  Yes! Once you swipe right on someone, you can message them immediately. They'll be able to see 
+                  your message and decide whether to respond.
                 </p>
               </div>
               <div>
@@ -111,7 +111,7 @@ export default function HelpPage() {
             <p className="text-muted-foreground mb-6">
               Our team is here to help. Send us an email and we'll get back to you within 24 hours.
             </p>
-            <a href="mailto:contact@foundermatch.com">
+            <a href="mailto:contact@linkedfounders.com">
               <Button>
                 <Mail className="h-4 w-4 mr-2" />
                 Contact Support

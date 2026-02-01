@@ -32,14 +32,14 @@ export default function MatchesPage() {
           <div className="lg:col-span-1 overflow-y-auto">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
               <MessageCircle className="h-6 w-6 text-primary" />
-              Your Matches
+              Your Connections
             </h2>
 
             {matches.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-muted-foreground mb-4">No matches yet</p>
+                <p className="text-muted-foreground mb-4">No connections yet</p>
                 <p className="text-sm text-muted-foreground">
-                  Start swiping to find your perfect co-founder!
+                  Start swiping right to connect with entrepreneurs!
                 </p>
               </div>
             ) : (
@@ -101,7 +101,7 @@ export default function MatchesPage() {
               <div className="h-full flex items-center justify-center text-muted-foreground">
                 <div className="text-center">
                   <MessageCircle className="h-16 w-16 mx-auto mb-4 opacity-50" />
-                  <p>Select a match to start chatting</p>
+                  <p>Select a connection to start chatting</p>
                 </div>
               </div>
             )}

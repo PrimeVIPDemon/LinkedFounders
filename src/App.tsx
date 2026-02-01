@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <ThemeProvider defaultTheme="light" storageKey="foundermatch-theme">
+    <ThemeProvider defaultTheme="light" storageKey="linkedfounders-theme">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />

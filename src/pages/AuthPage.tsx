@@ -60,7 +60,7 @@ export default function AuthPage({ onLogin }: AuthPageProps) {
             <div className="h-12 w-12 rounded-xl bg-white/20 flex items-center justify-center">
               <Flame className="h-7 w-7" />
             </div>
-            <span className="text-3xl font-bold">FounderMatch</span>
+            <span className="text-3xl font-bold">LinkedFounders</span>
           </div>
           <h1 className="text-4xl font-bold mb-6">Find Your Perfect Co-Founder</h1>
           <p className="text-lg text-white/90 mb-8">
@@ -73,7 +73,7 @@ export default function AuthPage({ onLogin }: AuthPageProps) {
             </div>
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 rounded-full bg-white/20 flex items-center justify-center">✓</div>
-              <span>Unlimited Matches & Messages</span>
+              <span>Unlimited Connections & Messages</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 rounded-full bg-white/20 flex items-center justify-center">✓</div>
@@ -91,7 +91,7 @@ export default function AuthPage({ onLogin }: AuthPageProps) {
               <div className="h-10 w-10 rounded-xl gradient-primary flex items-center justify-center">
                 <Flame className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">FounderMatch</span>
+              <span className="text-2xl font-bold">LinkedFounders</span>
             </div>
           </div>
 

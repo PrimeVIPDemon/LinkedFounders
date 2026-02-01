@@ -21,7 +21,7 @@ export default function AboutPage() {
           <div className="h-12 w-12 rounded-xl gradient-primary flex items-center justify-center">
             <Flame className="h-7 w-7 text-white" />
           </div>
-          <h1 className="text-4xl font-bold">About FounderMatch</h1>
+          <h1 className="text-4xl font-bold">About LinkedFounders</h1>
         </div>
 
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
@@ -31,21 +31,21 @@ export default function AboutPage() {
 
           <h2 className="text-2xl font-bold mt-8">Our Mission</h2>
           <p>
-            FounderMatch exists to solve one of the biggest challenges in entrepreneurship: finding the right people to build with. 
+            LinkedFounders exists to solve one of the biggest challenges in entrepreneurship: finding the right people to build with. 
             We believe that great startups are built by great teams, and that every entrepreneur deserves access to a network of 
             talented, passionate co-founders, mentors, and collaborators.
           </p>
 
           <h2 className="text-2xl font-bold mt-8">Why We're Different</h2>
           <p>
-            Unlike traditional professional networks, FounderMatch uses a swipe-based matching system to make connecting 
+            Unlike traditional professional networks, LinkedFounders uses a swipe-based matching system to make connecting 
             fast, engaging, and effective. We've removed all barriers to entry—no paywalls, no premium tiers, no limits on 
             connections. Just real entrepreneurs looking to build real companies.
           </p>
 
           <h2 className="text-2xl font-bold mt-8">100% Free, Forever</h2>
           <p>
-            We're committed to keeping FounderMatch completely free. Unlimited swipes, unlimited matches, unlimited messages. 
+            We're committed to keeping LinkedFounders completely free. Unlimited swipes, unlimited connections, unlimited messages. 
             We believe that access to opportunity shouldn't depend on your ability to pay for a subscription.
           </p>
 

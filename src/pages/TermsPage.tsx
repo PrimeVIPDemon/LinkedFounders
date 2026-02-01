@@ -24,7 +24,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
             <p>
-              By accessing or using FounderMatch, you agree to be bound by these Terms of Service. 
+              By accessing or using LinkedFounders, you agree to be bound by these Terms of Service. 
               If you disagree with any part of these terms, you may not access the service.
             </p>
           </section>
@@ -32,7 +32,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Eligibility</h2>
             <p>
-              You must be at least 18 years old to use FounderMatch. By creating an account, you represent 
+              You must be at least 18 years old to use LinkedFounders. By creating an account, you represent 
               that you meet this age requirement.
             </p>
           </section>
@@ -68,7 +68,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Professional Conduct</h2>
             <p>
-              FounderMatch is a professional networking platform for entrepreneurs. Users are expected to 
+              LinkedFounders is a professional networking platform for entrepreneurs. Users are expected to 
               maintain professional behavior and focus on business collaboration.
             </p>
           </section>
@@ -92,7 +92,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Disclaimer</h2>
             <p>
-              FounderMatch is provided "as is" without warranties. We do not verify the accuracy of user 
+              LinkedFounders is provided "as is" without warranties. We do not verify the accuracy of user 
               information or guarantee successful matches or business outcomes.
             </p>
           </section>
@@ -100,7 +100,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Contact</h2>
             <p>
-              For questions about these Terms, contact us at: legal@foundermatch.com
+              For questions about these Terms, contact us at: legal@linkedfounders.com
             </p>
           </section>
         </div>

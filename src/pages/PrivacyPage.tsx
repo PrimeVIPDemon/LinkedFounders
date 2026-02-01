@@ -24,7 +24,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
             <p>
-              FounderMatch ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
+              LinkedFounders ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
               explains how we collect, use, disclose, and safeguard your information when you use our platform.
             </p>
           </section>
@@ -85,7 +85,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
             <p>
-              For privacy-related questions, contact us at: privacy@foundermatch.com
+              For privacy-related questions, contact us at: privacy@linkedfounders.com
             </p>
           </section>
         </div>

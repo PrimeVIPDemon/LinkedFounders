@@ -23,26 +23,22 @@ export default function SwipePage() {
     setSwipeDirection(direction);
     
     if (direction === 'right') {
-      // Simulate match (30% chance)
-      const isMatch = Math.random() > 0.7;
-      
+      // One-way connection - you can message immediately
       setTimeout(() => {
-        if (isMatch) {
-          toast.success(`It's a match with ${currentUser?.name}! 🎉`, {
-            description: 'Start chatting now',
-          });
-          
-          // Save match to localStorage
-          const matches = JSON.parse(localStorage.getItem('matches') || '[]');
-          matches.push({
-            id: `m${Date.now()}`,
-            userId: currentUser.id,
-            user: currentUser,
-            matchedAt: new Date(),
-            unreadCount: 0,
-          });
-          localStorage.setItem('matches', JSON.stringify(matches));
-        }
+        toast.success(`Connected with ${currentUser?.name}! 💬`, {
+          description: 'You can now message them',
+        });
+        
+        // Save connection to localStorage
+        const matches = JSON.parse(localStorage.getItem('matches') || '[]');
+        matches.push({
+          id: `m${Date.now()}`,
+          userId: currentUser.id,
+          user: currentUser,
+          matchedAt: new Date(),
+          unreadCount: 0,
+        });
+        localStorage.setItem('matches', JSON.stringify(matches));
         
         moveToNext();
       }, 400);
@@ -71,7 +67,7 @@ export default function SwipePage() {
           <div>
             <h1 className="text-2xl font-bold flex items-center gap-2">
               <Sparkles className="h-6 w-6 text-primary" />
-              Discover Matches
+              Discover People
             </h1>
             <p className="text-sm text-muted-foreground mt-1">
               {users.length - currentIndex} profiles available

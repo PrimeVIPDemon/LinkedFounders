@@ -16,7 +16,7 @@ export default function AppHeader() {
           <div className="h-8 w-8 rounded-lg gradient-primary flex items-center justify-center">
             <Flame className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold">FounderMatch</span>
+          <span className="text-xl font-bold">LinkedFounders</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

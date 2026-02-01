@@ -15,7 +15,7 @@ export default function LandingPage() {
             <div className="h-8 w-8 rounded-lg gradient-primary flex items-center justify-center">
               <Flame className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold">FounderMatch</span>
+            <span className="text-xl font-bold">LinkedFounders</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
@@ -105,7 +105,7 @@ export default function LandingPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Start Collaborating</h3>
               <p className="text-muted-foreground">
-                When both users swipe right, it's a match! Message freely and build together.
+                Swipe right to connect instantly! Start messaging and build together.
               </p>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function LandingPage() {
       <section className="py-20 md:py-32">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why FounderMatch?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why LinkedFounders?</h2>
             <p className="text-lg text-muted-foreground">Everything you need, completely free</p>
           </div>
           
@@ -200,7 +200,7 @@ export default function LandingPage() {
                 <div className="h-8 w-8 rounded-lg gradient-primary flex items-center justify-center">
                   <Flame className="h-5 w-5 text-white" />
                 </div>
-                <span className="font-bold">FounderMatch</span>
+                <span className="font-bold">LinkedFounders</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Connecting entrepreneurs to build the future.
@@ -234,13 +234,13 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold mb-4">Connect</h4>
               <p className="text-sm text-muted-foreground">
-                contact@foundermatch.com
+                contact@linkedfounders.com
               </p>
             </div>
           </div>
           
           <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-            © 2026 FounderMatch. All rights reserved.
+            © 2026 LinkedFounders. All rights reserved.
           </div>
         </div>
       </footer>
